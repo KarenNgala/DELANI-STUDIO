@@ -15,10 +15,8 @@ body {
     left: 0;
     line-height: 50px;
     margin-top: 0px;
-    /* position: absolute; */
     padding-top: 12%;
     width: 100%;
-    /* height: 100%; */
     font-size: larger;
 }
 
@@ -90,9 +88,13 @@ body {
     width: 80%;
     top: 10%;
     left: 10%;
+    text-align: center;
+    font-size: larger;
+    font-weight: 900;
+    display: none;
+    background: rgba(255, 255, 255, 0.5);
     color: white;
     border: 2px solid white;
-    padding:
 }
 
 .contact {

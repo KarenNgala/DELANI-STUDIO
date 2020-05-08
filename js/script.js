@@ -27,10 +27,10 @@ $(document).ready(function() {
     });
 
     //portfolio overlays
-    $(".images").mouseenter(function() {
+    $(".images").mouseover(function() {
         $(".overlay").show();
     });
-    $(".images").mouseleave(function() {
+    $(".images").mouseout(function() {
         $(".overlay").hide();
     });
 });
