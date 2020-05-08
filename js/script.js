@@ -26,5 +26,11 @@ $(document).ready(function() {
         $('#product').toggle();
     });
 
-    //portfolio section
+    //portfolio overlays
+    $(".images").mouseenter(function() {
+        $(".overlay").show();
+    });
+    $(".images").mouseleave(function() {
+        $(".overlay").hide();
+    });
 });

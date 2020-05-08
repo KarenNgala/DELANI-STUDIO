@@ -84,6 +84,17 @@ body {
     object-fit: cover;
 }
 
+.overlay {
+    position: absolute;
+    height: 80%;
+    width: 80%;
+    top: 10%;
+    left: 10%;
+    color: white;
+    border: 2px solid white;
+    padding:
+}
+
 .contact {
     background: url(../images/backgrounds/c_image.jpg);
     background-size: cover;
