@@ -106,6 +106,7 @@ body {
 
 input[type="text"],
 input[type="email"],
+input[type="submit"],
 #message {
     background-color: transparent;
     margin-bottom: 20px;
