@@ -1,4 +1,5 @@
 $(document).ready(function() {
+
     //what we do section toggle
     $('#design').click(function() {
         $(this).hide();
@@ -24,4 +25,6 @@ $(document).ready(function() {
         $(this).hide();
         $('#product').toggle();
     });
+
+    //portfolio section
 });
