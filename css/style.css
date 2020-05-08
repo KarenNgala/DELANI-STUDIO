@@ -3,7 +3,7 @@ body {
     text-align: center;
     display: grid;
     grid-template-rows: auto auto auto auto auto auto auto;
-    height: 2000px;
+    height: auto;
 }
 
 .welcome {
@@ -53,4 +53,10 @@ body {
     text-align: center;
     padding-top: 10%;
     color: white;
+}
+
+.toggle {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    padding-top: 3%;
 }
