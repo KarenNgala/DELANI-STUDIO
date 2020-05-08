@@ -60,3 +60,7 @@ body {
     grid-row-end: 5;
     padding-top: 3%;
 }
+
+.text {
+    display: none;
+}
