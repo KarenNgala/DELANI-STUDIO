@@ -1,17 +1,27 @@
 $(document).ready(function() {
+    //what we do section toggle
     $('#design').click(function() {
-        $('.design').toggle();
+        $(this).hide();
+        $('.design').show();
     });
-});
-
-$(document).ready(function() {
+    $('.design').click(function() {
+        $(this).hide();
+        $('#design').show();
+    });
     $('#dvpt').click(function() {
+        $(this).hide();
         $('.dvpt').toggle();
     });
-});
-
-$(document).ready(function() {
+    $('.dvpt').click(function() {
+        $(this).hide();
+        $('#dvpt').toggle();
+    });
     $('#product').click(function() {
+        $(this).hide();
         $('.product').toggle();
+    });
+    $('.product').click(function() {
+        $(this).hide();
+        $('#product').toggle();
     });
 });
