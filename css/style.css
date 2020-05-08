@@ -53,6 +53,7 @@ body {
     background-size: cover;
     text-align: center;
     padding-top: 10%;
+    padding-bottom: 7%;
     color: white;
 }
 
@@ -68,9 +69,37 @@ body {
 
 .portfolio h2 {
     padding-top: 6%;
+    padding-bottom: 5%;
 }
 
 .folio {
     padding-top: 1%;
     margin-right: 10%;
+}
+
+.contact {
+    background: url(../images/backgrounds/c_image.jpg);
+    background-size: cover;
+    padding-top: 3%;
+    color: white;
+}
+
+input[type="text"],
+input[type="email"],
+#message {
+    background-color: transparent;
+}
+
+input,
+textarea {
+    margin-bottom: 20px;
+    color: white;
+}
+
+.footer {
+    padding-top: 3%;
+}
+
+.foot-text {
+    padding-top: 1%;
 }
