@@ -15,7 +15,6 @@ _This project features a fictional studio in the practice of jQuery and bootstra
 #### **BDD**
 
 
-
 #### **Project setup & collaboration**
 Clone this repo
 ```sh
