@@ -69,7 +69,7 @@ body {
 
 .portfolio h2 {
     padding-top: 6%;
-    padding-bottom: 5%;
+    padding-bottom: 1%;
 }
 
 .folio {
@@ -88,18 +88,20 @@ input[type="text"],
 input[type="email"],
 #message {
     background-color: transparent;
+    margin-bottom: 20px;
 }
 
-input,
-textarea {
-    margin-bottom: 20px;
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
     color: white;
 }
 
 .footer {
     padding-top: 3%;
+    padding-right: 20px;
 }
 
-.foot-text {
+.foot-text h5 {
     padding-top: 1%;
+    padding-bottom: 0;
 }
