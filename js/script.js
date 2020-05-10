@@ -81,6 +81,7 @@ $(document).ready(function() {
     $("form#my-form").submit(function(event) {
         event.preventDefault();
         var name = $("#name").val();
-        alert(name + " we have received your message. Thank you for reaching out to us.");
+        alert("Dear " + name + " we have received your message. Thank you for reaching out to us.");
+        document.getElementById("my-form").reset();
     })
 });

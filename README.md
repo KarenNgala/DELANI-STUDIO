@@ -1,7 +1,8 @@
 ### **DELANI STUDIO** by Karen Ngala
-_This project features a fictional studio and gives information about the services offered and projects done._
+_This project features a fictional studio and gives information about the services offered and projects done by the studio._
 
 #### **Description**
+*This project is the recreation of the landing page for a fictional studio using resources that include images used in the site, screenshots of how the website should look like, and videos of functionality.*
 ![Website screenshot](images/screenshot.jpg?raw=true "Landing page screenshot")
 
 #### **Languages Used**
