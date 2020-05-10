@@ -27,54 +27,18 @@ $(document).ready(function() {
     });
 
     //portfolio overlays
-    $(".one").mouseover(function() {
-        $("#one").show();
-    });
-    $(".one").mouseout(function() {
-        $("#one").hide();
+    $(".portfolio").mouseover(function() {
+        var images = ["one", "two", "three", "four", "five", "six", "seven", "eight"];
+        images.forEach(function(image) {
+            $("p#" + image).show();
+        });
     });
 
-    $(".two").mouseover(function() {
-        $("#two").show();
-    });
-    $(".two").mouseout(function() {
-        $("#two").hide();
-    });
-    $(".three").mouseover(function() {
-        $("#three").show();
-    });
-    $(".three").mouseout(function() {
-        $("#three").hide();
-    });
-    $(".four").mouseover(function() {
-        $("#four").show();
-    });
-    $(".four").mouseout(function() {
-        $("#four").hide();
-    });
-    $(".five").mouseover(function() {
-        $("#five").show();
-    });
-    $(".five").mouseout(function() {
-        $("#five").hide();
-    });
-    $(".six").mouseover(function() {
-        $("#six").show();
-    });
-    $(".six").mouseout(function() {
-        $("#six").hide();
-    });
-    $(".seven").mouseover(function() {
-        $("#seven").show();
-    });
-    $(".seven").mouseout(function() {
-        $("#seven").hide();
-    });
-    $(".eight").mouseover(function() {
-        $("#eight").show();
-    });
-    $(".eight").mouseout(function() {
-        $("#eight").hide();
+    $(".portfolio").mouseout(function() {
+        var images = ["one", "two", "three", "four", "five", "six", "seven", "eight"];
+        images.forEach(function(image) {
+            $("p#" + image).hide();
+        });
     });
 
     //submit message
