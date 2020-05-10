@@ -27,14 +27,14 @@ $(document).ready(function() {
     });
 
     //portfolio overlays
-    $(".portfolio").mouseover(function() {
+    $(".images").mouseover(function() {
         var images = ["one", "two", "three", "four", "five", "six", "seven", "eight"];
         images.forEach(function(image) {
             $("p#" + image).show();
         });
     });
 
-    $(".portfolio").mouseout(function() {
+    $(".images").mouseout(function() {
         var images = ["one", "two", "three", "four", "five", "six", "seven", "eight"];
         images.forEach(function(image) {
             $("p#" + image).hide();

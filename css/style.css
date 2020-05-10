@@ -92,8 +92,8 @@ body {
     font-size: larger;
     font-weight: 900;
     display: none;
-    background: rgba(0, 0, 0, 0.5);
-    color: white;
+    background: rgba(255, 255, 255, 0.2);
+    color: black;
     border: 2px solid white;
 }
 
